@@ -1,0 +1,84 @@
+/* Soluzione qui */
+
+/* Modalità tablet */
+@media screen and (min-width: 768px) {
+  /* 1st task */
+  #topbar {
+    justify-content: flex-start;
+  }
+
+  /* 2nd task */
+  main {
+    padding: 30px;
+  }
+
+  /* 3rd task */
+  .recipe-origin {
+    display: inline;
+  }
+
+  /* 4th task */
+  .recipe-name {
+    font-weight: 900;
+  }
+
+  /* 5th task */
+  .quick-notes > ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .quick-notes > ul > li {
+    width: calc(100% / 3 - (1rem * 2) / 3);
+  }
+
+  /* 6th task */
+  .social-networks button {
+    flex-grow: 1;
+  }
+
+  /* 7th task */
+  .ads {
+    display: block;
+  }
+
+  /* 8th task*/
+  .presentation img {
+    float: left;
+    margin-right: 10px;
+  }
+}
+
+/* Modalità desktop */
+@media screen and (min-width: 992px) {
+  /* 1st task */
+  .recipe-name {
+    font-weight: 1000;
+  }
+
+  /* 2nd and 3rd task */
+  .recipe-card {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .recipe-video {
+    flex-grow: 1;
+  }
+
+  .quick-notes > ul {
+    display: block;
+  }
+
+  .quick-notes > ul > li {
+    width: 198px;
+  }
+
+  /* 4th task */
+  .social-networks .label {
+    display: inline-block;
+  }
+
+  /* 5th task */
+}
