@@ -90,3 +90,18 @@
     justify-content: space-between;
   }
 }
+
+/* Bonus */
+
+@media screen and (min-width: 576px) {
+  /* 1st task */
+  .btn {
+    flex-grow: 1;
+  }
+
+  /* 2nd task */
+  .presentation img {
+    float: left;
+    margin-right: 10px;
+  }
+}
