@@ -81,4 +81,12 @@
   }
 
   /* 5th task */
+  address {
+    text-align: left;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
 }
